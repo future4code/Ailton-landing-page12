@@ -1,0 +1,18 @@
+.procurar-lupa-login {
+    display: flex;
+    padding: 16px;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.busca-de-produtos {
+    font-size: 16px;
+}
+
+.icone {
+    width: 16px;
+}
+.login {
+    font-size: 18px;
+}
