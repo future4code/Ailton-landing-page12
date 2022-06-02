@@ -1,6 +1,6 @@
 
 .rodape {
-    position: fixed;
+    position:static;
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -9,10 +9,10 @@
     justify-content: space-evenly;
     background-color: beige;
 }
-img {
+*img { 
     width: 40px;
     height: 40px;
-
+} 
 
 *{
     margin: 0;
@@ -85,8 +85,7 @@ img {
 
 .botoes{
  display:grid;
- align-items:
-
+ align-items:center;
 }
 
 
@@ -113,6 +112,7 @@ img {
     font-size: 24px;
     color: hsla(200, 100%, 9%, 0.425);
     border-radius: none;
+}
 
 .procurar-lupa-login {
     display: flex;
@@ -133,3 +133,9 @@ img {
     font-size: 18px;
 
 }
+
+.imagem-footer{
+width: 50px;
+}
+
+
