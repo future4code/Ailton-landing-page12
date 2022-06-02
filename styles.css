@@ -1,3 +1,4 @@
+
 .rodape {
     position: fixed;
     width: 100%;
@@ -11,4 +12,124 @@
 img {
     width: 40px;
     height: 40px;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.principal{
+    background-color: #ffffff;
+    border-top: 0.5px solid hsla(0, 0%, 0%, 0.425);
+    margin-bottom: 48px;
+}
+
+.principal-conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.principal-conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.principal-titulo{
+    font-weight: 400;
+    font-size: 64px;
+    color: hsla(199, 100%, 14%, 0.425);
+}
+
+.principal-subtitulo{
+    font-weight: 400;
+    font-size: 24px;
+    color: hsla(200, 100%, 9%, 0.425);
+}
+
+.botao-mercado{
+	background:linear-gradient(to bottom, #baebff 5%, #c4f5ff 100%);
+	border-radius:8px;
+	color:#000000;
+    font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+    height: 55;
+    width: 81800;
+}
+
+.botao-comida-pronta{
+    background:linear-gradient(to bottom, #baebff 5%, #c4f5ff 100%);
+	border-radius:8px;
+	color:#000000;
+    font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+    height: 55;
+    width: 81800;
+}
+
+.principal-4food-logo{
+    width: 25%; 
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.botoes{
+ display:grid;
+ align-items:
+
+}
+
+
+.secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    border-top: 0.5px solid hsla(199, 58%, 50%, 0.425);
+    padding-top: 48px;
+}
+
+.secundario-titulo{
+    
+    font-weight: 400;
+    font-size: 64px;
+    color: hsla(199, 100%, 14%, 0.425);
+}
+
+.secundario-paragrafo{
+    
+    font-weight: 400;
+    font-size: 24px;
+    color: hsla(200, 100%, 9%, 0.425);
+    border-radius: none;
+
+.procurar-lupa-login {
+    display: flex;
+    padding: 16px;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.busca-de-produtos {
+    font-size: 16px;
+}
+
+.icone {
+    width: 16px;
+}
+.login {
+    font-size: 18px;
+
 }
