@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -98,4 +99,23 @@
     font-size: 24px;
     color: hsla(200, 100%, 9%, 0.425);
     border-radius: none;
+
+.procurar-lupa-login {
+    display: flex;
+    padding: 16px;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.busca-de-produtos {
+    font-size: 16px;
+}
+
+.icone {
+    width: 16px;
+}
+.login {
+    font-size: 18px;
+
 }
