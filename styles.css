@@ -1,30 +1,37 @@
-
-.rodape {
-    position:static;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: beige;
-}
-*img { 
-    width: 40px;
-    height: 40px;
-} 
-
 *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
-    text-decoration: none;
+    /* text-decoration: none; */
+}
+
+/* .img { 
+    width: 40px;
+    height: 40px;
+}  */
+
+.procurar-lupa-login {
+    display: flex;
+    padding: 16px;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+.busca-de-produtos {
+    font-size: 16px;
+}
+
+.icone {
+    width: 16px;
+}
+.login {
+    font-size: 18px;
 }
 
 .principal{
     background-color: #ffffff;
     border-top: 0.5px solid hsla(0, 0%, 0%, 0.425);
-    margin-bottom: 48px;
 }
 
 .principal-conteudo{
@@ -43,49 +50,58 @@
     gap: 24px;
 }
 
-.principal-titulo{
+.principal-titulo {
     font-weight: 400;
     font-size: 64px;
     color: hsla(199, 100%, 14%, 0.425);
 }
 
-.principal-subtitulo{
+.principal-subtitulo {
     font-weight: 400;
     font-size: 24px;
     color: hsla(200, 100%, 9%, 0.425);
 }
 
 .botao-mercado{
-	background:linear-gradient(to bottom, #baebff 5%, #c4f5ff 100%);
-	border-radius:8px;
-	color:#000000;
+	background-color: white;
+	/* border-radius:8px; */
+	color:#6E5B4F;
     font-size:20px;
 	font-weight:bold;
 	padding:13px 32px;
-    height: 55;
-    width: 81800;
+    /* height: 55;
+    width: 81800; */
 }
 
 .botao-comida-pronta{
-    background:linear-gradient(to bottom, #baebff 5%, #c4f5ff 100%);
-	border-radius:8px;
-	color:#000000;
+    background-color: white;
+	/* border-radius:8px; */
+	color:#6E5B4F;
     font-size:20px;
 	font-weight:bold;
 	padding:13px 32px;
-    height: 55;
-    width: 81800;
+    /* height: 55;
+    width: 81800; */
 }
 
-.principal-4food-logo{
+.botao-comida-pronta:hover {
+   background-color: #909090;
+   color: white;
+}
+
+.botao-mercado:hover {
+    background-color: #909090;
+    color: white;
+ }
+
+.principal-4food-logo {
     width: 25%; 
     border-radius: 50%;
     margin-top: 25px;
 }
 
-.botoes{
- display:grid;
- align-items:center;
+.botoes {
+    align-items:center;
 }
 
 
@@ -114,28 +130,20 @@
     border-radius: none;
 }
 
-.procurar-lupa-login {
+.imagem-footer{
+width: 40px;
+}
+
+.rodape {
     display: flex;
     padding: 16px;
-    justify-content: flex-end;
     gap: 16px;
     align-items: center;
+    /* position:static; */
+    width: 100%;
+    /* bottom: 0; */
+    /* text-align: center; */
+    border: 1px solid black;
+    justify-content:space-between;
+    background-color: #909090;
 }
-
-.busca-de-produtos {
-    font-size: 16px;
-}
-
-.icone {
-    width: 16px;
-}
-.login {
-    font-size: 18px;
-
-}
-
-.imagem-footer{
-width: 50px;
-}
-
-
