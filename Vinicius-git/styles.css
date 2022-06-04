@@ -1,152 +1,128 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-header {
-    height: 10vh;
-
+html {
+  font-size: 16px;
 }
+
+body {
+  background: #ffffff;
+}
+
 .procurar-lupa-login {
-    display: flex;
-    padding: 16px;
-    justify-content: flex-end;
-    gap: 16px;
-    align-items: center;
-    border-bottom: 0.5px solid hsla(0, 0%, 0%, 0.425);
+  display: flex;
+  padding: 16px;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+  border-bottom: 0.5px solid hsla(0, 0%, 0%, 0.425);
 }
 
 .busca-de-produtos {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .icone {
-    width: 16px;
+  width: 16px;
 }
 
 .login {
-    font-size: 18px;
+  font-size: 16px;
 }
 
-.principal{
-    height: 80vh;
-    width: 100vw;
-    background-color: #ffffff;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding: 20px;
+#container {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
-.conteudo1 {
-    
-    display: block;
-    grid-column: 1/1;
-    grid-row: 1/1;
-    /* justify-content: space-around;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px; */
+#container > header {
+  text-align: center;
+  padding-top: 10px;
 }
 
-.conteudo2 {
-    
-    grid-column: 2;
-    grid-row: 1/1;
+main > header {
+  color: #000000;
 }
 
-.principal-titulo {
-    font-size: 30px;
-    color: hsla(199, 100%, 14%, 0.425);
+main {
+  background: #ffffff;
+  font-size: 20px;
+  padding: 1rem;
 }
 
-.principal-subtitulo {
-    font-weight: 400px;
-    font-size: 24px;
-    color: hsla(200, 100%, 9%, 0.425);
+nav {
+  background: #ffffff;
+  font-size: 20px;
+  color: black;
 }
 
-.botao-mercado{
-	background-color: white;
-	/* border-radius:8px; */
-	color:#6E5B4F;
-    font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-    /* height: 55;
-    width: 81800; */
+nav ul {
+  list-style-type: none;
 }
 
-.botao-comida-pronta{
-    background-color: white;
-	/* border-radius:8px; */
-	color:#6E5B4F;
-    font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-    /* height: 55;
-    width: 81800; */
+nav ul li {
+  color: #000000;
+  border-right: 1px solid #1a1a1a;
+  display: inline-block;
 }
 
-.botao-comida-pronta:hover {
-   background-color: #909090;
-   color: white;
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  padding: 15px;
 }
 
-.botao-mercado:hover {
-    background-color: #909090;
-    color: white;
- }
-
-.principal-4food-logo {
-    width: 25%; 
-    border-radius: 50%;
-    margin-top: 25px;
+.app {
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
-.botoes {
-    align-items:center;
+.app {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
 }
 
-
-/* .secundario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-top: 48px;
-    border-top: 0.5px solid hsla(199, 58%, 50%, 0.425);
-    padding-top: 48px;
+.app:hover {
+  transform: rotate(-1deg);
 }
 
-.secundario-titulo{
-    
-    font-weight: 400;
-    font-size: 64px;
-    color: hsla(199, 100%, 14%, 0.425);
+#apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.secundario-paragrafo{
-    
-    font-weight: 400;
-    font-size: 24px;
-    color: hsla(200, 100%, 9%, 0.425);
-    border-radius: none;
-} */
+.delivery {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
-.imagem-footer{
-    width: 5vh;
+.delivery {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+}
+
+.delivery:hover {
+  transform: rotate(-1deg);
+}
+.imagem-footer {
+  width: 5vh;
 }
 
 .rodape {
-    height: 10vh;
-    display: flex;
-    padding: 16px;
-    gap: 16px;
-    align-items: center;
-    width: 100%;
-    border: 1px solid black;
-    justify-content:space-between;
-    background-color: #909090;
+  height: 10vh;
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  background-color: #ffffff;
 }
