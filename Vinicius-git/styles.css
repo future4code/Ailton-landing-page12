@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #ffffff;
+}
+
+.procurar-lupa-login {
+  display: flex;
+  padding: 16px;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+  border-bottom: 0.5px solid hsla(0, 0%, 0%, 0.425);
+}
+
+.busca-de-produtos {
+  font-size: 16px;
+}
+
+.icone {
+  width: 16px;
+}
+
+.login {
+  font-size: 16px;
+}
+
+#container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+#container > header {
+  text-align: center;
+  padding-top: 10px;
+}
+
+main > header {
+  color: #000000;
+}
+
+main {
+  background: #ffffff;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+nav {
+  background: #ffffff;
+  font-size: 20px;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  color: #000000;
+  border-right: 1px solid #1a1a1a;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+  padding: 15px;
+}
+
+.app {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.app {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+}
+
+.app:hover {
+  transform: rotate(-1deg);
+}
+
+#apps {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagem-footer {
+  width: 5vh;
+}
+
+#rodape{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;   
+  text-align: center;
+  background-color: #e4dede;
+  font-size: 10px;
+  height: 8vh;
+
+}
+.imagem-footer{
+  width: 25px;
+}
+
